@@ -1,0 +1,197 @@
+/* HEAD WRAPPER AREA*/
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    font-family: sans-serif;
+}
+
+.head-wrapper {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: maroon;
+    color: white;
+}
+
+.top-left-div {
+    flex: 35;
+    display: flex-start;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#top-left-picture {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.top-middle-div {
+    flex: 90;
+    display: flex;
+    font-size: 32px;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.top-middle-div h1 {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.top-middle-div p {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.top-middle-div .social-links {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.top-middle-div .social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#facebook-link:hover {
+    color: #1877F2;
+}
+
+#linkedin-link:hover {
+    color: #0072B1;
+}
+
+#github-link:hover {
+    color: #181717;
+}
+
+#personal-title {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+
+.skills-and-interests-wrapper {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding-top: 40px;
+    display: flex;
+    gap: 20px;
+}
+
+.skills-and-interests-wrapper h1 {
+    font-size: 40px;
+    list-style-type: none;
+}
+
+.skills-and-interests-wrapper ul {
+    font-size: 15px;
+    list-style-type: none;
+}
+
+#personal-quote {
+    margin-top: 30px;
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.top-right-div {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: auto;
+    flex: 10;
+}
+
+.top-right-div i {
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+}
+
+.top-right-div i:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+/* ACHIEVEMENTS WRAPPER AREA*/
+
+.achievements-wrapper {
+    background-color: #4E220F;
+    padding: 5px 20px;
+    color: white;
+}
+
+.achievements-wrapper h1 {
+    padding: 0;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.achievements-wrapper ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+
+.achievements-wrapper ul li {
+    color: white;
+    font-size: 20px;
+    margin-right: 90px;
+    text-decoration: none;
+}
+
+.achievement-link {
+    color: white;
+    text-decoration: none;
+}
+
+.achievement-link:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* PROJECTS WRAPPER AREA*/
+
+
+.projects-wrapper {
+    color: white; 
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.projects-wrapper h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.projects-list {
+    margin-left: 10px;
+}
+
+.project-link{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+    color: white;
+}
